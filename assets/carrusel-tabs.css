@@ -1,0 +1,44 @@
+.tabs-content .tab-content {
+  display: none;
+}
+
+.tabs-content .tab-content[active] {
+  display: block;
+}
+
+.carrusel-tabs-container {
+  width: 100%;
+  padding: 2rem;
+}
+
+.carrusel-tabs-container tabs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tabs-titles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.tabs-titles tab-title {
+  padding: 10px;
+  border: 1px solid #000;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+
+.tabs-titles tab-title[active] {
+  background: #000;
+  color: #FFF;
+}
+
+.tabs-titles tab-title:hover {
+  background: #000;
+  color: #FFF;
+}
